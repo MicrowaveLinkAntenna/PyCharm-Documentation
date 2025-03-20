@@ -4,8 +4,8 @@ In COMP1510, you will learn the basics of procedural programming using Python. L
 
 There will be three main objectives of this guide:
 
-* Installing PyCharm Ultimate
+* Installing PyCharm Professional
 
-* Configuring PyCharm Ultimate for labs and activating your student license
+* Configuring PyCharm Professional for labs and activating your student license
 
 * Configuring PyCharm for exams
