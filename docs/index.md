@@ -1,17 +1,11 @@
-# Welcome to MkDocs
+# How To Set Up PyCharm for BCIT COMP1510
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+In COMP1510, you will learn the basics of procedural programming using Python. Labs and exams will require the IDE PyCharm, which this guide will show you how to install and configure.
 
-## Commands
+There will be three main objectives of this guide:
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Installing PyCharm Ultimate
 
-## Project layout
+* Configuring PyCharm Ultimate for labs and activating your student license
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Configuring PyCharm for exams
