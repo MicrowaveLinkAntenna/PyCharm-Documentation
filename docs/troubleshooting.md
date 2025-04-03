@@ -1,5 +1,6 @@
-| Problem | Likely cause | Solution |
-|---------|--------------|----------|
-|         |              |          |
-|         |              |          |
-|         |              |          |
+| Problem                                                                            | Likely cause                                                    | Solution                                                                            |
+|------------------------------------------------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------------------------|
+| FizzBuzz program prints the word 'number' instead of the number                    | You put the variable number in quotation marks.                 | Change `print("number")` to `print(number)` and rerun the program.                  |
+| FizzBuzz program produces `TypeError: can only concatenate str (not "int") to str` | You tried to concatenate number to output.                      | Change `output = output + number` to `output = number` and rerun the program.       |
+| FizzBuzz program produces some kind of `NameError`                                 | Either `"Fizz"` or `"Buzz"` are not enclosed in quotation marks | Ensure you have `"Fizz"` and `"Buzz"` instead of `Fizz` or `Buzz`.                  |
+| Code in FizzBuzz program does not run in proper order                              | Indentation in code is incorrect.                               | Ensure all indentation in your code matches the code samples from the instructions. |
