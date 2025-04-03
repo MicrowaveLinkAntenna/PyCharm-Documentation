@@ -6,6 +6,8 @@ Click on the hamburger menu at the top left to open your toolbar. Hover over 'Fi
 
 Your new Python file should automatically open in the IDE.
 
+## Printing
+
 In programming, 'printing' something usually means displaying it as text on the screen, rather than printing it with a printer.
 
 When we want to print something in Python, we use the 'print()' function:
@@ -13,6 +15,8 @@ When we want to print something in Python, we use the 'print()' function:
 print("Hello, World!")
 ```
 Try copy and pasting this line into your Python file, then running it. You should see the text 'Hello, World!' appear in the **console** at the bottom of the window.
+
+## Loops
 
 How do we print every number without listing?
 
@@ -37,6 +41,8 @@ Inside the loop we print number's value. Because we want to print number's value
 
 After printing number's value, we reassign (change) number's value. Specifically, we change its value to its value plus 1. In other words, we add 1 to number's value. 
 
+## If-Else statements
+
 Now, how do we replace numbers with 'Fizz' and 'Buzz'? Well, when we want to do something in some cases and something else in other cases, we can use an 'if-else' statement. Replace your code with the following:
 ```
 number = 0
@@ -54,6 +60,8 @@ The if-statement (third line) is kind of like a while loop: it checks if a condi
 On the fifth line, we have an else-statement. An else statement must come directly after an if statement. Instead of checking a condition, the else-statement runs when the if-statement above it didn't.
 
 To simplify, the code we just added checks if the value of number is 3. If it is, we run the code in the if-statement, which prints "Fizz". If it is not, we run the code in the else-statement, which prints the value of number.
+
+### Complex conditions
 
 Ok, but how do we print 'Fizz' on all multiples of 3, instead of just 3? By making the if-statement's condition more complex:
 ```
@@ -73,6 +81,8 @@ The condition then checks if the remainder is 0. When the remainder of a number 
 
 In other words, the if-statement is just checking if number is a multiple of 3.
 
+### The else-if statement
+
 Now, lets make it print 'Buzz' for multiple of 5. Run the following code
 ```
 number = 0
@@ -88,6 +98,8 @@ while number < 101:
 We added a new kind of statement, called an 'else-if statement (in Python we abbreviate 'else-if' to 'elif'). The else-if statement is a combination of the else-statement and the if-statement. An else-if statement runs when the if-statement above it did not run AND the else-if's condition is met.
 
 Note that we were simplifying when we said that an else-statement must come after and if-statement. It can also come after an else-if statement (as in this code). An else-statement does the same thing regardless of whether the previous statement is an 'if' or an 'else-if': it runs if the previous statement did not.
+
+## Strings
 
 Running the code, you might notice a problem: multiple of both 3 and 5 are replaced with 'Fizz', instead of 'FizzBuzz'. This is the last change, but it's also the most complex:
 ```
