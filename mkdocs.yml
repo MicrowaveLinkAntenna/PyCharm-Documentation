@@ -2,3 +2,9 @@ site_name: Pycharm Documentation
 site_url: https://github.com/MicrowaveLinkAntenna/PyCharm-Documentation
 theme:
   name: material
+nav:
+  - Home: "index.md"
+  - Installation: "installation.md"
+  - Your First Program: "first_program.md"
+  - Troubleshooting: "troubleshooting.md"
+  - Glossary: "glossary.md"
