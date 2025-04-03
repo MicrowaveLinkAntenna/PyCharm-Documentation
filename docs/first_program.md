@@ -1,5 +1,7 @@
 # Your first program in PyCharm
 
+Fizz buzz is a children's game
+
 ## Creating a Python File
 
 Before you start programming, you need to create a Python file to write your code in. One project can have multiple Python files, each containing parts of a larger program. For this tutorial, you'll only need a single Python file.
@@ -7,15 +9,22 @@ Before you start programming, you need to create a Python file to write your cod
 First, click on your project's name in the left sidebar. Click on the hamburger menu at the top left to open your toolbar. Hover over 'File', then select 'New'. This will open a list of file types. Select 'Python File'. We recommend naming the file 'FizzBuzz'.
 
 === "Select project in sidebar"
-[![](img/first_program/Project%20Root.PNG)]
+[Sidebar]
 === "Click on hamburger"
-[![](img/first_program/Hamburger.PNG)]
+[Hamburger]
 === "Click on new"
-[![](img/first_program/New%20file.PNG)]
+[New file]
 === "Select Python File"
-[![](img/first_program/Capture.PNG)]
+[Python file]
 === "Enter a name"
-[![](img/first_program/Enter%20name.PNG)]
+[Name]
+
+[Sidebar]: img/first_program/Project%20Root.PNG
+[Hamburger]: img/first_program/Project%20Root.PNG
+[New file]: img/first_program/Project%20Root.PNG
+[Python file]: img/first_program/Project%20Root.PNG
+[Name]: img/first_program/Project%20Root.PNG
+
 
 Your new Python file should automatically open in the IDE.
 
