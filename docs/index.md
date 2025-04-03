@@ -19,6 +19,3 @@ Python is a programming language developed by the Python Software Foundation. Be
 PyCharm is an Integrated development environment (IDE) developed by JetBrains studios. An IDE is an application designed for writing, testing, and running computer code. PyCharm is specifically designed for coding in Python. 
 
 PyCharm is just one of many IDEs that users can use to write Python. We have selected PyCharm because it is used in the Programming Fundamentals course (COMP 1510) at BCIT DTC, and the fact that BCIT students (and most other university or college students) are given free access to the premium PyCharm Professional. However, PyCharm boasts a comprehensive suite of features, making it a good choice for any user, and all of the instructions in this guide will also apply to the free PyCharm Community version, with the exception of activating a student license as PyCharm Community does not require activation.
-
-
-
