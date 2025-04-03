@@ -1,6 +1,12 @@
 # Your first program in PyCharm
 
-Fizz buzz is a children's game
+'Fizz buzz' is a children's game used to teach division. You play it like this: starting from the number one, count up to one-hundred, saying each numbers out loud. Each time you get to a multiple of three, say "Fizz" instead of the number's name. Each time you get to a multiple of five, say "Buzz". And each time you get to a multiple of three and five, say "FizzBuzz". A game would look like this:
+
+1, 2, Fizz, 4, Buzz, 5, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
+
+And so on.
+
+Writing a program which plays fizz buzz happens to be a well-known basic technical question for programming interviews. In this part of the guide, we'll introduce you to programming in Python by writing a program for fizz buzz.
 
 ## Creating a Python File
 
