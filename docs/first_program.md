@@ -75,9 +75,9 @@ while number < 101:
 ```
 Try running this code to see what it does.
 
-The first thing to understand is the '%' symbol. In Python this is the **modulo operator**. The modulo operator gives us the remainder of dividing the number on the left by the number on right. Here it gives us the remainder of number's value divided by 3.
+The first thing to understand is the `%` symbol. In Python this is the **modulo operator**. The modulo operator gives us the remainder of dividing the number on the left by the number on right. Here it gives us the remainder of number's value divided by 3.
 
-The condition then checks if the remainder is 0. When the remainder of a number $x$ divided by a number $y$ is $0$, that means that $x$ must be a multiple of $y$.
+The condition then checks if the remainder is 0. When the remainder of a number `x` divided by a number `y` is `0`, that means that `x` must be a multiple of `y`.
 
 In other words, the if-statement is just checking if number is a multiple of 3.
 
