@@ -9,3 +9,7 @@ nav:
   - Your First Program: "first_program.md"
   - Troubleshooting: "troubleshooting.md"
   - Glossary: "glossary.md"
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
