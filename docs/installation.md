@@ -55,3 +55,15 @@ For COMP1510, we will install PyCharm Professional, not PyCharm Community, in or
 
 10. Check the box labelled `Run PyCharm` and then click `Finish`. The newly installed PyCharm will open.
 ![](img/pycharm-installer6.png)
+
+11. Check the box for agreeing to the user agreement and click `Continue`
+![](img/init1.png)
+
+12. Choose whether to send usage statistics to Intellij.
+![](img/init2.png)
+
+13. Click `Free 30-Day Trial` for now, we will activate the license in the Configuration section.
+![](img/init3.png)
+
+14. If the installation was successful, you should see this landing screen:
+![](img/init4.png)
