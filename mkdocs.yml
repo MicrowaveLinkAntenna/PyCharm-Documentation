@@ -1,4 +1,4 @@
-site_name: Pycharm Documentation
+site_name: PyCharm Documentation
 site_url: https://github.com/MicrowaveLinkAntenna/PyCharm-Documentation
 theme:
   name: material
