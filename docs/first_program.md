@@ -130,3 +130,8 @@ The third if-statement checks if output is empty. Because the two previous if-st
 This means that our third if-statement only runs when number is not a multiple of 3 or 5. According to the rules of FizzBuzz, we should print the number itself. So we set output to the value of number.
 
 Then, we simply print whatever the value of output is. Run it and see for yourself!
+
+## Conclusion
+Congratulations, you've just written your first program in Python!
+
+Now that you've done, why not try tinkering with the program? In an interview you might be asked to add new conditions to your program, like adding "Pop" if the number is divisible by 7. Working with code is the best way to learn code. Why not start now?
