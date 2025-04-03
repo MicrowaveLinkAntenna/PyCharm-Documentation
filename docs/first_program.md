@@ -2,7 +2,7 @@
 
 'Fizz buzz' is a children's game used to teach division. You play it like this: starting from the number one, count up to one-hundred, saying each numbers out loud. Each time you get to a multiple of three, say "Fizz" instead of the number's name. Each time you get to a multiple of five, say "Buzz". And each time you get to a multiple of three and five, say "FizzBuzz". A game would look like this:
 
-1, 2, Fizz, 4, Buzz, 5, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz
+1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, ...
 
 And so on.
 
@@ -15,15 +15,15 @@ Before you start programming, you need to create a Python file to write your cod
 First, click on your project's name in the left sidebar. Click on the hamburger menu at the top left to open your toolbar. Hover over 'File', then select 'New'. This will open a list of file types. Select 'Python File'. We recommend naming the file 'FizzBuzz'.
 
 === "Select project in sidebar"
-[![Sidebar]]
+![Sidebar]
 === "Click on hamburger"
-[![Hamburger]]
+![Hamburger]
 === "Click on new"
-[![New file]]
+![New file]
 === "Select Python File"
-[![Python file]]
+![Python file]
 === "Enter a name"
-[![Name]]
+![Name]
 
 [Sidebar]: img/first_program/Project%20Root.PNG
 [Hamburger]: img/first_program/Project%20Root.PNG
@@ -42,7 +42,8 @@ When we want to print something in Python, we use the 'print()' function:
 ```
 print("Hello, World!")
 ```
-Try copy and pasting this line into your Python file, then running it. You should see the text 'Hello, World!' appear in the **console** at the bottom of the window.
+Try copy and pasting this line into your Python file. Run the file py pressing the green play button in the top right.
+You should see the text 'Hello, World!' appear in the **console** at the bottom of the window.
 
 ## Loops
 
