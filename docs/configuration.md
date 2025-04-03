@@ -44,3 +44,44 @@ PEP-8 is a standard in Python that specifies how code should be formatted. COMP1
 
 6. Click `Apply` to save the changes.
 ![](img/configuration/pep8-apply.png)
+
+## Adding a GitHub Personal Access Token
+
+In COMP1510, you will have weekly graded assignments (called labs) where you submit your work by pushing to a specific GitHub repository. For this, you will need a GitHub account, and to create and add a Personal Access Token to PyCharm to allow it to push code as your account. It is a short text string of random characters that works similarly to am one-time password or the session cookie in a browser. 
+
+1. In the settings panel, type `github` into the search bar.
+
+2. Click `GitHub` in the sidebar.
+![](img/configuration/github-search.png)
+
+3. Click `Add account...`.
+![](img/configuration/github-add.png)
+
+4. From the dropdown, click `Log In with Token...`
+![](img/configuration/github-add-token.png)
+
+5. In the popup the appears, click `Generate...`.
+![](img/configuration/github-generate.png)
+
+6. Your browser will open to a GitHub login page. Make sure you sign in with the GitHub account that you plan on using to submit coursework. 
+![](img/configuration/github-sign-in.png)
+
+7. Once you sign in, you will be redirected to the page for creating tokens. It should already be prepopulated with a name and the required access settings. The default name will be "PyCharm GitHub integration plugin", which you can change. You may also want to use the expiry date dropdown to set the expiry date to after your COMP1510 class ends, or set it to never expire. You can also adjust the settings for what the token is allowed to access, but for COMP1510's purposes, you shouldn't need to change anything. When you're done configuring the token, scroll to the borrom of the page and click `Generate token`.
+![](img/configuration/github-new-token-settings.png)
+
+8. Copy the new token into your clipboard by clicking the button beside it. 
+![](img/configuration/github-new-token.png)
+> **Warning:** The Personal Access Token alone is capable of signing into your account, without even entering your username. Never share it with anyone else, for example, with a classmate over Discord.
+>
+>Your instructor, GitHub, or anyone else have no reason to ask you to send them a token, and such emails or other communications are most likely scams with the goal of gaining access to your GitHub account.  
+
+9. Minimize the browser and paste the token into the PyCharm popup, then click `Add account...`.
+![](img/configuration/github-confirm.png)
+
+10. You should now see your GitHub username and profile picture in the settings panel. Click `Apply...` to save the setting.
+![](img/configuration/github-apply.png)
+
+11. Remember to close (or refresh) the tab that is displaying your token. Then copy something generic into your clipboard, and clear the clipboard history. These prevent accidentally leaking the token, which, as mentioned above, is effectively a password.
+
+12. If you need to delete or edit the token at a later date, for example, to change permissions or extend the expiry date, go to [this link](https://github.com/settings/tokens). Click on the name of the token (in blue) to go to the same page shown in step 7.
+![](img/configuration/github-token-settings.png)

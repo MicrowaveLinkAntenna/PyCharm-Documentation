@@ -13,3 +13,5 @@
 | **Terminal** | Also called the command prompt, it is a text-based interface that software developers sometimes use instead of the graphical user interface, as it allows for more precise control of the commands given to the computer. |
 | **Current working directory** | The directory that is currently open in a given terminal session. |
 | **PATH** | A list of programs that are immediately available in the terminal regardless of the current working directory. |
+
+| **Personal Access Token** | A short text string of random characters that works similarly to a password or the session cookie in a browser |
