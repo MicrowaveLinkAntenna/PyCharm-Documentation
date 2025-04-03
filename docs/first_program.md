@@ -4,6 +4,13 @@ Before you start programming, you need to create a Python file to write your cod
 
 Click on the hamburger menu at the top left to open your toolbar. Hover over 'File', then select 'New'. This will open a list of file types. Select 'Python File'. We recommend naming the file 'FizzBuzz'.
 
+=== "Hamburger"
+![](img/first_program/project root.png)
+
+=== "New"
+![](img/first_program/hamburger.png)
+
+
 Your new Python file should automatically open in the IDE.
 
 ## Printing
