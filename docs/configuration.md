@@ -1,6 +1,9 @@
-# Configuring PyCharm for COMP1510
+# Configuring PyCharm for COMP-1510
 
-This document will cover correctly configuring the IDE for COMP1510. Namely, ensuring that PEP-8 formatting is checked, and adding a GitHub token to enable you to submit code for lab assignments. The steps here will be the same regardless of your operating system. COMP1510 requires PyCharm to be configured in a certain way in order to make the most use of it in lab assignments, and one of the easiest ways to avoid losing marks is to ensure that it is configured properly.
+This document will cover correctly configuring the IDE for COMP-1510. Namely, ensuring that PEP-8 formatting is checked,
+and adding a GitHub token to enable you to submit code for lab assignments. The steps here will be the same regardless of your operating system. 
+COMP-1510 requires PyCharm to be configured in a certain way in order to make the most use of it in lab assignments,
+and one of the easiest ways to avoid losing marks is to ensure that it is configured properly.
 
 ## Opening PyCharm Settings
 
@@ -27,7 +30,7 @@ PyCharm Community lacks some of the more advanced features of PyCharm Profession
 
 ## Configuring PEP-8 Validation 
 
-PEP-8 is a standard in Python that specifies how code should be formatted. COMP1510 strictly enforces PEP-8 formatting, and any deviation will result in lost marks. Therefore, it is important to ensure that the IDE is configured to check for PEP-8 and warn you when code does not conform to it.
+PEP-8 is a standard in Python that specifies how code should be formatted. COMP-1510 strictly enforces PEP-8 formatting, and any deviation will result in lost marks. Therefore, it is important to ensure that the IDE is configured to check for PEP-8 and warn you when code does not conform to it.
 
 1. In the settings panel, type `pep 8` into the search bar.
 
@@ -47,7 +50,7 @@ PEP-8 is a standard in Python that specifies how code should be formatted. COMP1
 
 ## Adding a GitHub Personal Access Token
 
-In COMP1510, you will have weekly graded assignments (called labs) where you submit your work by pushing to a specific GitHub repository. For this, you will need a GitHub account, and to create and add a Personal Access Token to PyCharm to allow it to push code as your account. It is a short text string of random characters that works similarly to am one-time password or the session cookie in a browser. 
+In COMP-1510, you will have weekly graded assignments (called labs) where you submit your work by pushing to a specific GitHub repository. For this, you will need a GitHub account, and to create and add a Personal Access Token to PyCharm to allow it to push code as your account. It is a short text string of random characters that works similarly to am one-time password or the session cookie in a browser. 
 
 1. In the settings panel, type `github` into the search bar.
 
@@ -66,7 +69,7 @@ In COMP1510, you will have weekly graded assignments (called labs) where you sub
 6. Your browser will open to a GitHub login page. Make sure you sign in with the GitHub account that you plan on using to submit coursework. 
 ![](img/configuration/github-sign-in.png)
 
-7. Once you sign in, you will be redirected to the page for creating tokens. It should already be prepopulated with a name and the required access settings. The default name will be "PyCharm GitHub integration plugin", which you can change. You may also want to use the expiry date dropdown to set the expiry date to after your COMP1510 class ends, or set it to never expire. You can also adjust the settings for what the token is allowed to access, but for COMP1510's purposes, you shouldn't need to change anything. When you're done configuring the token, scroll to the borrom of the page and click `Generate token`.
+7. Once you sign in, you will be redirected to the page for creating tokens. It should already be prepopulated with a name and the required access settings. The default name will be "PyCharm GitHub integration plugin", which you can change. You may also want to use the expiry date dropdown to set the expiry date to after your COMP-1510 class ends, or set it to never expire. You can also adjust the settings for what the token is allowed to access, but for COMP-1510's purposes, you shouldn't need to change anything. When you're done configuring the token, scroll to the borrom of the page and click `Generate token`.
 ![](img/configuration/github-new-token-settings.png)
 
 8. Copy the new token into your clipboard by clicking the button beside it. 
@@ -85,3 +88,9 @@ In COMP1510, you will have weekly graded assignments (called labs) where you sub
 
 12. If you need to delete or edit the token at a later date, for example, to change permissions or extend the expiry date, go to [this link](https://github.com/settings/tokens). Click on the name of the token (in blue) to go to the same page shown in step 7.
 ![](img/configuration/github-token-settings.png)
+
+## Next Steps
+Now that you have finished configuring PyCharm for use in COMP-1510, it is a good idea to get ahead of the class by gaining
+some basic experience coding in Python. Like most courses at BCIT, COMP-1510 'hits the ground running', so coming to your first
+class with even a little bit of knowledge can help tremendously. Proceed to [Your First Program](first_program.md) to begin your
+Python coding journey.
