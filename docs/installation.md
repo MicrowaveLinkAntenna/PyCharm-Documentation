@@ -1,14 +1,19 @@
 # Installing Python and PyCharm
 
-Python is the programming language while PyCharm is the IDE that helps you write code in that language. They are created by separate organizations, and need to be installed separately. Here, we will first install Python and then PyCharm.
+In order to user Python with PyCharm, you will first have to install both piece of software. Although you will be using 
+them in tandem, Python and Pycharm are separate pieces of software made by separate organisations. As such, they will need to be installed separately.
 
-The screenshots in this document will show the installers for Windows, but it should be very similar on Mac.
+COMP-1510 requires using specific installation options which are easily missed. As such, this page will cover how to
+properly install Python and PyCharm the first time.
+
+The screenshots in this document will show the installers for Windows. The UI will be slightly different on other
+operating systems, but the overall process will be the same.
 
 ## Installing Python
 
-You should only have to do this on Windows and Mac. Most Linux distributions should already come with an up to date Python interpreter, but Windows doesn't have one by default and Mac has an outdated version.
+Most Linux distributions should already come with an upto date Python interpreter, but Windows doesn't have one by default and Mac come packaged an outdated version.
 
-1. Go to [this link](https://www.python.org/downloads/) on the computer you want to install Python to.
+1. Go to the official Python [download page](https://www.python.org/downloads/) on the computer you want to install Python to.
 
 2. The website should automatically detect your operating system and change the main download button to the correct version of the installer. If the auto detection is not correct, click one of the options below to manually select the version.
 ![](img/installation/python-download.png)
@@ -26,9 +31,11 @@ You should only have to do this on Windows and Mac. Most Linux distributions sho
 
 ## Installing PyCharm
 
-For COMP1510, we will install PyCharm Professional, not PyCharm Community, in order to have the most poweful version of the IDE with the most features. 
+One mistake students often make when installing PyCharm is selecting the wrong version.
+In COMP-1510, students should use PyCharm Professional, not PyCharm Community. PyCharm Professional requires a license
+to use, which BCIT students receive for free.
 
-1. Go to [this link](https://www.jetbrains.com/pycharm/download/) on the computer you want to install PyCharm to.
+1. Go to the [PyCharm download page](https://www.jetbrains.com/pycharm/download/) on the computer you want to install PyCharm to.
 
 2. PyCharm Professional supports Windows, Mac, and Linux, and the website should automatically detect your operating system. If it is incorrect, click on the correct one from the choices just below the header.
 
@@ -67,3 +74,7 @@ For COMP1510, we will install PyCharm Professional, not PyCharm Community, in or
 
 14. If the installation was successful, you should see this landing screen:
 ![](img/installation/init4.png)
+
+## Next Steps
+If you have followed these steps successfully, the PyCharm IDE should already be open in front of you.
+Proceed to [Configuration](configuration.md) to set up the IDE for use in COMP-1510.
