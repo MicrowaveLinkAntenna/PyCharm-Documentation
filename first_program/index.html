@@ -1,0 +1,718 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://github.com/MicrowaveLinkAntenna/PyCharm-Documentation/first_program/">
+      
+      
+        <link rel="prev" href="../configuration/">
+      
+      
+        <link rel="next" href="../troubleshooting/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>Your First Program - PyCharm Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#your-first-program-in-pycharm" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="PyCharm Documentation" class="md-header__button md-logo" aria-label="PyCharm Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PyCharm Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Your First Program
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="PyCharm Documentation" class="md-nav__button md-logo" aria-label="PyCharm Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    PyCharm Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Installation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../configuration/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Configuration
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Your First Program
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Your First Program
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-python-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Python File
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Printing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loops
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-else-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      If-Else statements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="If-Else statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complex-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complex conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-else-if-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      The else-if statement
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../troubleshooting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Troubleshooting
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../glossary/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Glossary
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creating-a-python-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      Creating a Python File
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#printing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Printing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#loops" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loops
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#if-else-statements" class="md-nav__link">
+    <span class="md-ellipsis">
+      If-Else statements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="If-Else statements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#complex-conditions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Complex conditions
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-else-if-statement" class="md-nav__link">
+    <span class="md-ellipsis">
+      The else-if statement
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strings" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="your-first-program-in-pycharm">Your first program in PyCharm</h1>
+<p>'Fizz buzz' is a children's game used to teach division. You play it like this: starting from the number one, count up to one-hundred, saying each numbers out loud. Each time you get to a multiple of three, say "Fizz" instead of the number's name. Each time you get to a multiple of five, say "Buzz". And each time you get to a multiple of three and five, say "FizzBuzz". A game would look like this:</p>
+<p>1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, Fizz Buzz, ...</p>
+<p>And so on.</p>
+<p>Writing a program which plays fizz buzz happens to be a well-known basic technical question for programming interviews. In this part of the guide, we'll introduce you to programming in Python by writing a program for fizz buzz.</p>
+<h2 id="creating-a-python-file">Creating a Python File</h2>
+<p>Before you start programming, you need to create a Python file to write your code in. One project can have multiple Python files, each containing parts of a larger program. For this tutorial, you'll only need a single Python file.</p>
+<p>To create a Python File, right-click on your project's name in the left sidebar, select 'New', then 'Python File'. We recommend naming the file 'FizzBuzz'.</p>
+<p><img alt="" src="../img/first_program/NewPythonFile.PNG" /></p>
+<p>Your new Python file should automatically open in the IDE.</p>
+<h2 id="printing">Printing</h2>
+<p>In programming, 'printing' something usually means displaying it as text on the screen, rather than printing it with a printer.</p>
+<p>When we want to print something in Python, we use the 'print()' function:
+<div class="highlight"><pre><span></span><code>print(&quot;Hello, World!&quot;)
+</code></pre></div>
+Try copy and pasting this line into your Python file. Run the file py pressing the green play button in the top right.
+You should see the text 'Hello, World!' appear in the <strong>console</strong> at the bottom of the window.</p>
+<h2 id="loops">Loops</h2>
+<p>How do we print every number without listing?</p>
+<p>Well, anytime we want do something repeatedly in a program there's a good chance we can use a <strong>loop</strong>.</p>
+<p>Remove any code from your Python file, then copy and paste the following code and run it:
+<div class="highlight"><pre><span></span><code>number = 0
+while number &lt; 101:
+    print(number)
+    number = number + 1
+</code></pre></div>
+This should print the numbers 0 to 99 in your console.</p>
+<p>On the first line of code, we create a <strong>variable</strong>. A variable has a name and a value; in the first line of code we create a variable named 'number' and give it the value 0.</p>
+<p>On the second line, we create a <strong>while loop</strong>. A while loop checks whether a <strong>condition</strong> is true or false. If the condition is true, the loop runs the indented code (lines 3 and 4), then checks if the condition again. It does this over and over until the condition is false, hence why its called a loop.</p>
+<p>In this example, the loops condition is whether the variable 'number' is less than 101. We set number to 0 in the previous line, so this condition is true, and the loop starts.</p>
+<p>Inside the loop we print number's value. Because we want to print number's value, we shouldn't put it in quotation marks like we did with "Hello, World!". You can test what happens when you write print("number") instead of print(number) to see why. Make sure to change it back after!</p>
+<p>After printing number's value, we reassign (change) number's value. Specifically, we change its value to its value plus 1. In other words, we add 1 to number's value. </p>
+<h2 id="if-else-statements">If-Else statements</h2>
+<p>Now, how do we replace numbers with 'Fizz' and 'Buzz'? Well, when we want to do something in some cases and something else in other cases, we can use an 'if-else' statement. Replace your code with the following:
+<div class="highlight"><pre><span></span><code>number = 0
+while number &lt; 101:
+    if number == 3:
+        print(&quot;Fizz&quot;)
+    else:
+        print(number)
+    number = number + 1
+</code></pre></div>
+If you run this, and scroll up in the console, you'll see that 'Fizz' was printed instead of 3. How?</p>
+<p>The if-statement (third line) is kind of like a while loop: it checks if a condition is true or false, then runs some code if it's true. The difference is that the if statement does not loop. It checks once, runs the code or doesn't, then finishes.</p>
+<p>On the fifth line, we have an else-statement. An else statement must come directly after an if statement. Instead of checking a condition, the else-statement runs when the if-statement above it didn't.</p>
+<p>To simplify, the code we just added checks if the value of number is 3. If it is, we run the code in the if-statement, which prints "Fizz". If it is not, we run the code in the else-statement, which prints the value of number.</p>
+<h3 id="complex-conditions">Complex conditions</h3>
+<p>Ok, but how do we print 'Fizz' on all multiples of 3, instead of just 3? By making the if-statement's condition more complex:
+<div class="highlight"><pre><span></span><code>number = 0
+while number &lt; 101:
+    if number % 3 == 0:     # This line changed
+        print(&quot;Fizz&quot;)
+    else:
+        print(number)
+    number = number + 1
+</code></pre></div>
+Try running this code to see what it does.</p>
+<p>The first thing to understand is the <code>%</code> symbol. In Python this is the <strong>modulo operator</strong>. The modulo operator gives us the remainder of dividing the number on the left by the number on right. Here it gives us the remainder of number's value divided by 3.</p>
+<p>The condition then checks if the remainder is 0. When the remainder of a number <code>x</code> divided by a number <code>y</code> is <code>0</code>, that means that <code>x</code> must be a multiple of <code>y</code>.</p>
+<p>In other words, the if-statement is just checking if number is a multiple of 3.</p>
+<h3 id="the-else-if-statement">The else-if statement</h3>
+<p>Now, lets make it print 'Buzz' for multiple of 5. Run the following code
+<div class="highlight"><pre><span></span><code>number = 0
+while number &lt; 101:
+    if number % 3 == 0:
+        print(&quot;Fizz&quot;)
+    elif number % 5 == 0:
+        print(&quot;Buzz&quot;)
+    else:
+        print(number)
+    number = number + 1
+</code></pre></div>
+We added a new kind of statement, called an 'else-if statement (in Python we abbreviate 'else-if' to 'elif'). The else-if statement is a combination of the else-statement and the if-statement. An else-if statement runs when the if-statement above it did not run AND the else-if's condition is met.</p>
+<p>Note that we were simplifying when we said that an else-statement must come after and if-statement. It can also come after an else-if statement (as in this code). An else-statement does the same thing regardless of whether the previous statement is an 'if' or an 'else-if': it runs if the previous statement did not.</p>
+<h2 id="strings">Strings</h2>
+<p>Running the code, you might notice a problem: multiple of both 3 and 5 are replaced with 'Fizz', instead of 'FizzBuzz'. This is the last change, but it's also the most complex:
+<div class="highlight"><pre><span></span><code>number = 0
+while number &lt; 101:
+    output = &quot;&quot;
+    if number % 3 == 0:
+        output += &quot;Fizz&quot;
+    if number % 5 == 0:
+        output += &quot;Buzz&quot;
+    if output == &quot;&quot;:
+        output = number
+    print(output)
+    number = number + 1
+</code></pre></div></p>
+<p>Let's run through all the new ideas in this code.</p>
+<p>Firstly, we create a new variable called output, and set its value to "". When we enclose a value in quotation marks, that means the value is a <strong>string</strong>. A string is a series of letters, numbers, or other symbols (like "Hello, World!", "Fizz", and "Buzz"). Because we haven't put anything between these quotation marks (not even a space!), output is an empty string; a string containing nothing.</p>
+<p>Secondly, we've changed what our if-else statements do. Now, instead of printing anything, they change the value of our new variable output.</p>
+<p>It might look like we're adding "Fizz" and "Buzz" to output, but that's not quite correct. Because output is a string, not a number, we cannot 'add' to it. With a string, the '+' symbol means 'concatenate'. In other words, 'attach this string to the end of that string'.
+So <code>output + "Fizz"</code> attaches "Fizz" to the end of an empty string "". And <code>output + "Buzz"</code> will either add "Buzz" to the end of "Fizz" or an empty string, depending on whether the previous if-statement ran.</p>
+<p>The third if-statement checks if output is empty. Because the two previous if-statements concatenate text to output, output will only be empty when the two previous if-statements did not run. And because the two previous if-statements run when number is a multiple of 3 or 5 respectively, then output will only be empty if numer is not a multiple of 3 or 5.</p>
+<p>This means that our third if-statement only runs when number is not a multiple of 3 or 5. According to the rules of FizzBuzz, we should print the number itself. So we set output to the value of number.</p>
+<p>Then, we simply print whatever the value of output is. Run it and see for yourself!</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>Congratulations, you've just written your first program in Python!</p>
+<p>Now that you've done, why not try tinkering with the program? In an interview you might be asked to add new conditions to your program, like adding "Pop" if the number is divisible by 7. Working with code is the best way to learn code. Why not start now?</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
