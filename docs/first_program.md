@@ -12,25 +12,9 @@ Writing a program which plays fizz buzz happens to be a well-known basic technic
 
 Before you start programming, you need to create a Python file to write your code in. One project can have multiple Python files, each containing parts of a larger program. For this tutorial, you'll only need a single Python file.
 
-First, click on your project's name in the left sidebar. Click on the hamburger menu at the top left to open your toolbar. Hover over 'File', then select 'New'. This will open a list of file types. Select 'Python File'. We recommend naming the file 'FizzBuzz'.
+To create a Python File, right-click on your project's name in the left sidebar, select 'New', then 'Python File'. We recommend naming the file 'FizzBuzz'.
 
-=== "Select project in sidebar"
-![Sidebar]
-=== "Click on hamburger"
-![Hamburger]
-=== "Click on new"
-![New file]
-=== "Select Python File"
-![Python file]
-=== "Enter a name"
-![Name]
-
-[Sidebar]: img/first_program/Project%20Root.PNG
-[Hamburger]: img/first_program/Project%20Root.PNG
-[New file]: img/first_program/Project%20Root.PNG
-[Python file]: img/first_program/Project%20Root.PNG
-[Name]: img/first_program/Project%20Root.PNG
-
+![](img/first_program/NewPythonFile.PNG)
 
 Your new Python file should automatically open in the IDE.
 
